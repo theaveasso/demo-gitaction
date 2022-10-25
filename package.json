@@ -1,0 +1,15 @@
+{
+	"name": "demo-gitaction",
+	"version": "1.0.0",
+	"description": "Learning Github action",
+	"main": "index.js",
+	"scripts": {
+		"build": "ncc build src/action.js -o dist"
+	},
+	"repository": "git@github.com:theaveasso/demo-gitaction.git",
+	"author": "Theaveas So",
+	"license": "MIT",
+	"dependencies": {
+		"@vercel/ncc": "^0.34.0"
+	}
+}
