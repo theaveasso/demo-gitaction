@@ -5,8 +5,8 @@ on:
         types: [opened]
 
 jobs:
-    tests:
+    test:
         runs-on: ubuntu-latest
-    steps:
-        - uses: actions/checkout@v3
-        - uses: ./
+        steps:
+            - uses: actions/checkout@v2
+            - uses: ./

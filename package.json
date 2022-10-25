@@ -9,7 +9,8 @@
 	"repository": "git@github.com:theaveasso/demo-gitaction.git",
 	"author": "Theaveas So",
 	"license": "MIT",
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
 		"@vercel/ncc": "^0.34.0"
 	}
 }
